@@ -1,0 +1,7 @@
+function checkCollision(bullet1,wall1) {
+  if (bullet1.x+bullet1.width >= wall1.x) {
+    return true;
+  } 
+  return false;
+  
+}
